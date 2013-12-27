@@ -14,6 +14,7 @@ Group: System/Libraries
 BuildRequires: pkgconfig(libwpd-0.9)
 BuildRequires: pkgconfig(libxml-2.0)
 BuildRequires: pkgconfig(zlib)
+BuildRequires: pkgconfig(cppunit)
 BuildRequires: boost-devel >= 1.55.0
 BuildRequires: gperf
 
