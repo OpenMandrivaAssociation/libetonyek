@@ -17,6 +17,7 @@ BuildRequires: pkgconfig(zlib)
 BuildRequires: pkgconfig(cppunit)
 BuildRequires: boost-devel >= 1.55.0
 BuildRequires: gperf
+BuildRequires: doxygen
 
 %description
 Library for interpreting and importing Apple Keynote presentiations
