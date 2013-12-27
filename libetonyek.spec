@@ -39,6 +39,10 @@ Development files (Headers etc.) for %{name}.
 
 %prep
 %setup -q
+aclocal
+automake -a
+autoheader
+autoconf
 %configure
 
 %build
