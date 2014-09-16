@@ -15,6 +15,7 @@ BuildRequires: pkgconfig(libwpd-0.9)
 BuildRequires: pkgconfig(libxml-2.0)
 BuildRequires: pkgconfig(zlib)
 BuildRequires: pkgconfig(cppunit)
+BuildRequires: pkgconfig(librevenge-0.0)
 BuildRequires: boost-devel >= 1.55.0
 BuildRequires: gperf
 BuildRequires: doxygen
