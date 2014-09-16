@@ -1,2 +1,4 @@
+removed_sources:
+  libetonyek-0.0.3.tar.bz2: 11b46be309720c5a7ef6678f4af88035d7d04f1c
 sources:
-  "libetonyek-0.0.3.tar.bz2": 11b46be309720c5a7ef6678f4af88035d7d04f1c
+  libetonyek-0.1.1.tar.xz: 024fd730b062d1df54de0352323d03d011e59277
