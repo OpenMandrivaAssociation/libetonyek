@@ -11,7 +11,7 @@ Summary: Library for interpreting and importing Apple Keynote presentiations
 URL: http://freedesktop.org/wiki/Software/libetonyek
 License: MPL 2.0
 Group: System/Libraries
-BuildRequires: pkgconfig(libwpd-0.9)
+BuildRequires: pkgconfig(libwpd-0.10)
 BuildRequires: pkgconfig(libxml-2.0)
 BuildRequires: pkgconfig(zlib)
 BuildRequires: pkgconfig(cppunit)
@@ -44,6 +44,8 @@ aclocal
 automake -a
 autoheader
 autoconf
+CFLAGS="%{optflags} -Qunused-arguments" \
+CXXFLAGS="%{optflags} -Qunused-arguments" \
 %configure
 
 %build
