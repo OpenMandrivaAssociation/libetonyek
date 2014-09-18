@@ -44,8 +44,6 @@ aclocal
 automake -a
 autoheader
 autoconf
-CFLAGS="%{optflags} -Qunused-arguments" \
-CXXFLAGS="%{optflags} -Qunused-arguments" \
 %configure
 
 %build
