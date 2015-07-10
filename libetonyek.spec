@@ -17,6 +17,7 @@ BuildRequires: pkgconfig(cppunit)
 BuildRequires: pkgconfig(librevenge-0.0)
 BuildRequires: boost-devel >= 1.55.0
 BuildRequires: glm-devel
+BuildRequires: mdds-devel
 BuildRequires: gperf
 BuildRequires: doxygen
 
