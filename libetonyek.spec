@@ -4,9 +4,10 @@
 %define devname %mklibname etonyek -d
 
 Name: libetonyek
-Version: 0.1.5
+Version: 0.1.6
 Release: 1
 Source0: http://dev-www.libreoffice.org/src/%{name}/%{name}-%{version}.tar.bz2
+Patch1:	libetonyek-mdds1.2.patch
 Summary: Library for interpreting and importing Apple Keynote presentiations
 URL: http://freedesktop.org/wiki/Software/libetonyek
 License: MPL 2.0
@@ -41,6 +42,8 @@ Development files (Headers etc.) for %{name}.
 
 %prep
 %setup -q
+%apply_patches
+
 aclocal
 automake -a
 autoheader
