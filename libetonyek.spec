@@ -5,7 +5,7 @@
 
 Name: libetonyek
 Version: 0.1.6
-Release: 1
+Release: 2
 Source0: http://dev-www.libreoffice.org/src/%{name}/%{name}-%{version}.tar.bz2
 Patch1:	libetonyek-mdds1.2.patch
 Summary: Library for interpreting and importing Apple Keynote presentiations
