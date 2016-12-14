@@ -16,6 +16,7 @@ BuildRequires: pkgconfig(libxml-2.0)
 BuildRequires: pkgconfig(zlib)
 BuildRequires: pkgconfig(cppunit)
 BuildRequires: pkgconfig(librevenge-0.0)
+BuildRequires: pkgconfig(liblangtag)
 BuildRequires: boost-devel >= 1.55.0
 BuildRequires: glm-devel
 BuildRequires: mdds-devel
