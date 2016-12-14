@@ -2,13 +2,14 @@
 %define major 1
 %define libname %mklibname etonyek %{api} %{major}
 %define devname %mklibname etonyek -d
+%define mdds_api 1.2
 
 Name: libetonyek
 Version: 0.1.6
 Release: 2
 Source0: http://dev-www.libreoffice.org/src/%{name}/%{name}-%{version}.tar.bz2
 Patch1:	libetonyek-mdds1.2.patch
-Summary: Library for interpreting and importing Apple Keynote presentiations
+Summary: Library for interpreting and importing Apple Keynote presentations
 URL: http://freedesktop.org/wiki/Software/libetonyek
 License: MPL 2.0
 Group: System/Libraries
@@ -19,7 +20,7 @@ BuildRequires: pkgconfig(librevenge-0.0)
 BuildRequires: pkgconfig(liblangtag)
 BuildRequires: boost-devel >= 1.55.0
 BuildRequires: glm-devel
-BuildRequires: mdds-devel
+BuildRequires: pkgconfig(mdds-%{mdds_api})
 BuildRequires: gperf
 BuildRequires: doxygen
 
@@ -51,7 +52,7 @@ autoheader
 autoconf
 CFLAGS="%{optflags} -Qunused-arguments" \
 CXXFLAGS="%{optflags} -Qunused-arguments" \
-%configure
+%configure --with-mdds=%{mdds_api}
 
 %build
 %make
