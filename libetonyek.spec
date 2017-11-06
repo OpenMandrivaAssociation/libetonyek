@@ -5,10 +5,9 @@
 %define mdds_api 1.2
 
 Name: libetonyek
-Version: 0.1.6
-Release: 2
+Version: 0.1.7
+Release: 1
 Source0: http://dev-www.libreoffice.org/src/%{name}/%{name}-%{version}.tar.bz2
-Patch1:	libetonyek-mdds1.2.patch
 Summary: Library for interpreting and importing Apple Keynote presentations
 URL: http://freedesktop.org/wiki/Software/libetonyek
 License: MPL 2.0
