@@ -6,7 +6,7 @@
 
 Name: libetonyek
 Version: 0.1.8
-Release: 1
+Release: 2
 Source0: http://dev-www.libreoffice.org/src/%{name}/%{name}-%{version}.tar.bz2
 Summary: Library for interpreting and importing Apple Keynote presentations
 URL: http://freedesktop.org/wiki/Software/libetonyek
