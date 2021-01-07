@@ -1,0 +1,11 @@
+diff -up libetonyek-0.1.9/src/lib/NUM3Parser.cpp.omv~ libetonyek-0.1.9/src/lib/NUM3Parser.cpp
+--- libetonyek-0.1.9/src/lib/NUM3Parser.cpp.omv~	2021-01-07 02:57:53.638583228 +0100
++++ libetonyek-0.1.9/src/lib/NUM3Parser.cpp	2021-01-07 02:57:59.676668760 +0100
+@@ -8,6 +8,7 @@
+  */
+ 
+ #include <functional>
++#include <algorithm>
+ 
+ #include "NUM3Parser.h"
+ 
