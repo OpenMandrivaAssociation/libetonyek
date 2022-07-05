@@ -2,7 +2,7 @@
 %define major 1
 %define libname %mklibname etonyek %{api} %{major}
 %define devname %mklibname etonyek -d
-%define mdds_api 1.5
+%define mdds_api 2.0
 
 Name: libetonyek
 Version: 0.1.10
