@@ -10,7 +10,7 @@ Release: 2
 Source0: http://dev-www.libreoffice.org/src/%{name}/%{name}-%{version}.tar.xz
 #Patch0:	libetonyek-0.1.9-compile.patch
 Summary: Library for interpreting and importing Apple Keynote presentations
-URL: http://freedesktop.org/wiki/Software/libetonyek
+URL: https://freedesktop.org/wiki/Software/libetonyek
 License: MPL 2.0
 Group: System/Libraries
 BuildRequires: pkgconfig(libxml-2.0)
