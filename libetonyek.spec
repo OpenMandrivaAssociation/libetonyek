@@ -13,6 +13,11 @@ Summary: Library for interpreting and importing Apple Keynote presentations
 URL: https://freedesktop.org/wiki/Software/libetonyek
 License: MPL 2.0
 Group: System/Libraries
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: pkgconfig(libxml-2.0)
 BuildRequires: pkgconfig(zlib)
 BuildRequires: pkgconfig(cppunit)
